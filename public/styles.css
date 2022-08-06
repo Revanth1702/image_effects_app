@@ -5,7 +5,8 @@ p,button{
   font-family: 'Titillium Web', sans-serif;
 }
 
-  .bg {
+
+  /* .bg {
     animation: slide 3s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, #090a09 70%, #222222 50%);
   }
@@ -17,13 +18,13 @@ p,button{
   
   .bg:nth-child(3) {
     animation-duration:5s;
-  }
+  } */
 
 
   #label:hover{
     box-shadow: 2px 2px 5px #fc894d;
   }
-  #formatting:hover{
+  .formatting:hover{
     background: rgb(23, 23, 23);
     box-shadow: inset;
     border-radius: 10%;
