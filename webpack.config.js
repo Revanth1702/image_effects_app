@@ -12,7 +12,7 @@ module.exports = {
             template: './public/index.html'
         }),
         new WasmPackPlugin({
-            crateDirectory: path.resolve(__dirname, '.')
+            crateDirectory: path.resolve(__dirname, '.') //it will search for cargo.toml file
         })
     ],
     experiments: {
